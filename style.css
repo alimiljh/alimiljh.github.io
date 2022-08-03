@@ -104,12 +104,15 @@ body{
 
  .dyna{
    display: flex;
+   
  }
  .dyna .static-txt{
    color: #fff;
-   font-size: 60px;
-   font-weight: 400;
+   font-size: 70px;
+   text-shadow: black 0 2px;
+   font-weight: 500;
    font-weight: bold;
+   
  }
  .dyna .dynamic-txts{
    margin-left: 15px;
