@@ -79,7 +79,21 @@ body{
  .services:hover .dropdown {
   display: block;
  }
-
+ .bg
+ {
+  
+    /* The image used */
+    background-image: url("bg.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+ }
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
  *{
    margin: 0;
