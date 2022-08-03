@@ -6,9 +6,38 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   </head>
-  <body>
-    <div class="wrapper">
-        
+  <body background="bg.jpg">
+    
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Stellantis</div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/">Connected Vehicles</a></li>
+          <li><a href="/">Web API</a></li>
+          <li class="services">
+            <a href="/">Mobile SDK</a>
+            <!-- DROPDOWN MENU -->
+            <ul class="dropdown">
+              <li><a href="/">Overview</a></li>
+              <li><a href="/">Security</a></li>
+              <li><a href="/">SDK Features</a></li>
+              <li><a href="/">API Reference</a></li>
+            </ul>
+          </li>
+          <li><a href="/">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+    <div class="dyna">
+      <div class="static-txt">Build the future of Connected Cars</div>
+      <ul class="dynamic-txts">
+        <li><span> _ </span></li>
+      </ul>
+    </div>
+    <div class="wrapper">       
       <div class="task-input">        
         <img src= "stellantis_logo.jpg"alt="icon">
         <input type="text" placeholder="Add a new task">
@@ -23,7 +52,7 @@
       </div>
       <ul class="task-box"></ul>
     </div>
-
+ 
     <script src="script.js"></script>
 
   </body>
